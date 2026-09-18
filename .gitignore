@@ -1,20 +1,29 @@
+# Python
 .venv/
-venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .pytest_cache/
-*.db
-data/*.db
-data/
-trader-intel.tgz
+*.egg-info/
+dist/
+build/
+
+# Secrets / env
 .env
 .env.*
 !.env.example
 *.pem
-*.key
 credentials*
 secrets*
+
+# Data / dumps
+*.db
+data/
 reports/
+*.tgz
+trader-intel.tgz
 *.log
+
+# IDE
+.idea/
+.vscode/
 .DS_Store
